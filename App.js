@@ -1,6 +1,6 @@
 import { Button, Text, StyleSheet, TextInput, View, FlatList } from "react-native";
 import { useState } from "react";
-import { Modal } from './components/Modal'
+import  Modal  from "./src/components/Modal";
 
 export default function App() {
   const [textItem, setTextItem] = useState("");
